@@ -25,9 +25,6 @@ var handler = function () {
     let index = 1;
     let room = rooms[0];
     rooms.forEach(function (room) {
-      if (index == 20) {
-        return;
-      }
       let append = (index == 1 ? false : true);
       console.log('Processing location ' + index + ' on ' + total);
       index = index + 1;
