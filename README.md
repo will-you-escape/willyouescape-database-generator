@@ -5,19 +5,22 @@ This project generates a csv file containing Escape Rooms in the world based on 
 
 CSV output is located in `data/roomsdb.csv` and its format is :
 
-`countryCode,cityName,companyName,companyLink,roomName,formattedAddress,lat,lng,gmapsName`
+`'Country','Region','City','Organization','Room','URL','Address','Lat','Lng','GmapsName','GmapsId','GmapsPlaceID'`
 
 with :
 
-- countryCode : 2 digits country identification
-- cityName : city of the room
-- companyName : name of the company running the room
-- companyLink : link to website
-- roomName : name of the room
-- formattedAddress : formatted address (gmaps)
-- lat : latitude (gmaps)
-- lng : longitude (gmaps)
-- gmapsName : name of the place (gmaps)
+- Country : 2 digits country identification
+- Region : region name
+- City : city of the room
+- Organization : name of the company running the room
+- Room : name of the room
+- URL : link to website
+- Address : address (gmaps)
+- Lat : latitude (gmaps)
+- Lng : longitude (gmaps)
+- GmapsName : name of the location (gmaps)
+- GmapsId : id of the location (gmaps)
+- GmapsPlaceId : place id of the location (gmaps)
 
 
 ## Startup
