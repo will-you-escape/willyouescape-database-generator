@@ -1,4 +1,4 @@
-willyouescape-database
+willyouescape-database-generator
 =========
 
 This project generates a csv file containing Escape Rooms in the world based on the website http://escaperoomdirectory.com/
