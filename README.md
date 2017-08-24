@@ -3,7 +3,7 @@ willyouescape-database-generator
 
 This project generates a csv file containing Escape Rooms in the world based on the website http://escaperoomdirectory.com/
 
-CSV output is located in `data/roomsdb.csv` and its format is :
+CSV output is located in `data/roomsdb-v1.csv` and its format is :
 
 `'Country','Region','City','Organization','Room','URL','Address','Lat','Lng','GmapsName','GmapsId','GmapsPlaceID'`
 
