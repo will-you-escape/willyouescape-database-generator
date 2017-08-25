@@ -34,7 +34,7 @@ var handler = function () {
   			console.log('Processing location ' + index + ' on ' + total);
   			index = index + 1;
       	// Finds location 
-      	let url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=' + room.Organization.split(' ').join('+') + ',' + room.Room.split(' ').join('+') + '&key=' + gmapsApiKey;
+      	let url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=' + room.Organization.split(' ').join('+') + ',' + room.City.split(' ').join('+') + '&key=' + gmapsApiKey;
       	let address = '';
       	let lat = '';
       	let lng = '';
